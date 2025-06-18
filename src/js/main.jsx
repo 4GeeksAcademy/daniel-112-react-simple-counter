@@ -11,12 +11,6 @@ import '../styles/index.css'
 // components
 import Home from './components/Home';
 
-// ReactDOM.createRoot(document.getElementById('root')).render(
-//   <React.StrictMode>
-//     <Home/>
-//   </React.StrictMode>,
-// );
-
 
 let num1 = 0;
 let num2 = 0;
@@ -54,14 +48,6 @@ setInterval(function(){
     num6++;
   }
 
-  // if (num6 > 9) {
-  //   num6 = 0;
-  // }
-
-  
-
-
-  // console.log(num1);
   
   ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
